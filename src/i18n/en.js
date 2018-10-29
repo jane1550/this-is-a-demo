@@ -1,0 +1,1 @@
+module.exports = {"":{"project-id-version":"i18next-conv","pot-creation-date":"2018-04-12T08:05:43.773Z","po-revision-date":"2018-04-12T06:47:35.940Z","mime-version":"1.0","content-type":"text/plain; charset=UTF-8","content-transfer-encoding":"8bit","plural-forms":"nplurals=2; plural=(n != 1)"},"Example":"","Next":""};

@@ -1,0 +1,13 @@
+export const RECEIVE_PLAN_INITIAL_DATA = 'proposal/RECEIVE_PLAN_INITIAL_DATA';
+export const SET_PLAN = 'proposal/SET_PLAN';
+export const RECEIVE_RIDERS_LIST = 'proposal/RECEIVE_RIDERS_LIST';
+export const RECEIVE_CALC_PREMIUM = 'proposal/RECEIVE_CALC_PREMIUM';
+export const RECEIVE_SAVE_PLAN = 'proposal/RECEIVE_SAVE_PLAN';
+export const RECEIVE_CUSTOMERS = 'proposal/RECEIVE_CUSTOMERS';
+export const SET_PROPOSAL = 'proposal/SET_PROPOSAL';
+export const RESET_PAGE = 'proposal/RESET_PAGE';
+export const SET_PRODUCER = 'proposal/SET_PRODUCER'
+export const RECEIVE_SAVE_PROPOSAL = 'proposal/RECEIVE_SAVE_PROPOSAL';
+export const RECEIVE_PLAN_ILLUSTRATION = 'proposal/RECEIVE_PLAN_ILLUSTRATION';
+export const SET_CUSTOMER = 'proposal/SET_CUSTOMER';
+export const RECEIVE_SEND_SMS_DATA = 'proposal/RECEIVE_SEND_SMS_DATA';

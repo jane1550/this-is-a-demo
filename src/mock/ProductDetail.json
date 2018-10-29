@@ -1,0 +1,225 @@
+{
+    "status": "0",
+    "errorMessages": [],
+    "salesPackageInfo": {
+        "extendedProps": {},
+        "packageId": 9100245,
+        "packageCode": "mthjhPTE",
+        "packageName": "满堂红计划",
+        "mainProductId": 1115490,
+        "mainProductCode": "TPYDMTHNJ",
+        "moneyId": null,
+        "saPremInfo": "<span style=\"color: #666;\">最低保额:</span>100万元",
+        "isCollected": "N",
+        "isNew": "N",
+        "suggestReason": "首年即领，年年分红，还返本，附加万能账户实现财富复利增值。",
+        "totalVisitCount": 210,
+        "insurer": {
+            "version": 0,
+            "insurerId": 15,
+            "insurerName": "太平洋人寿保险股份有限公司",
+            "insurerCode": "taipy",
+            "ifFilter": null,
+            "abbrName": "太平洋",
+            "insurerLogo": "/ls/company/taipy/taipybx.png",
+            "insurerDesc": "中国太平洋人寿保险股份有限公司（以下简称“太平洋寿险”）是中国太平洋保险（集团）股份有限公司（以下简称“中国太平洋保险”）旗下专业寿险子公司，太平洋寿险将认真贯彻落实集...",
+            "telephone": "95500",
+            "url": null,
+            "entityIdName": "insurerId",
+            "abbrCode": "TPY",
+            "identifier": 15
+        },
+        "ageRange": {
+            "minAge": 19,
+            "minUnit": "1",
+            "maxAge": 60,
+            "maxUnit": "1"
+        },
+        "chargeList": [
+            {
+                "periodType": "2",
+                "periodValue": 3
+            },
+            {
+                "periodType": "2",
+                "periodValue": 5
+            },
+            {
+                "periodType": "2",
+                "periodValue": 10
+            }
+        ],
+        "coverageList": [
+            {
+                "periodType": "1",
+                "periodValue": 0
+            }
+        ],
+        "salesRightsList": [
+            {
+                "packageCode": null,
+                "rightWords": "理财金",
+                "rightDesc":null,
+                "ifFilter": null,
+                "displayOrder": 3
+            },
+            {
+                "packageCode":null,
+                "rightWords": "养老金",
+                "rightDesc": null,
+                "ifFilter":null,
+                "displayOrder": 4
+            },
+            {
+                "packageCode": null,
+                "rightWords": "教育金",
+                "rightDesc": null,
+                "ifFilter":null,
+                "displayOrder": 5
+            },
+            {
+                "packageCode": null,
+                "rightWords": "现金分红",
+                "rightDesc": null,
+                "ifFilter": null,
+                "displayOrder": 6
+            },
+            {
+                "packageCode": null,
+                "rightWords": "万能账户",
+                "rightDesc": null,
+                "ifFilter": null,
+                "displayOrder": 7
+            }
+        ],
+        "packageFeatureList": [],
+        "salesLiabilityList": [
+            {
+                "extendedProps": {},
+                "liabId": 8796,
+                "liabName": "享有参与分配分红保险业务可分配盈余的权利",
+                "liabCategory": null,
+                "categoryName": "生存金",
+                "liabDesc": "享有参与分配分红保险业务可分配盈余的权利，现金领取或转入万能账户。保单红利是不保证的。",
+                "needDiseaseIndi": "N"
+            },
+            {
+                "extendedProps": {},
+                "liabId": 8759,
+                "liabName": "身故给付身故保险金",
+                "liabCategory": null,
+                "categoryName": "身故",
+                "liabDesc": "被保险人在祝寿金给付前身故，给付已交保费和现金价值的较大者，本合同终止；被保险人在祝寿金给付后身故，给付现金价值,本合同终止。",
+                "needDiseaseIndi": "N"
+            },
+            {
+                "extendedProps": {},
+                "liabId": 8794,
+                "liabName": "60周岁后每年给付保额的25%",
+                "liabCategory": null,
+                "categoryName": "生存金",
+                "liabDesc": "被保险人于60周岁后的合同年生效对应日前生存，每年给付保额的25%。",
+                "needDiseaseIndi": "N"
+            },
+            {
+                "extendedProps": {},
+                "liabId": 8793,
+                "liabName": "每年给付保额的20%         ",
+                "liabCategory": null,
+                "categoryName": "生存金",
+                "liabDesc": "被保险人于本合同生效日及60周岁日前生存，每年给付保额的20%。",
+                "needDiseaseIndi": "N"
+            },
+            {
+                "extendedProps": {},
+                "liabId": 8795,
+                "liabName": "可选择在60、65或70周岁时领取祝寿金",
+                "liabCategory": null,
+                "categoryName": "生存金",
+                "liabDesc": "被保险人可选择在60、65或70周岁的合同生效对应日领取祝寿金，给付已交保费，祝寿金给付一次。",
+                "needDiseaseIndi": "N"
+            }
+        ],
+        "attachProductList": [
+            {
+                "extendedProps": {},
+                "productId": 1115490,
+                "productCode": "TPYDMTHNJ",
+                "productName": "满堂红（分红型）",
+                "productDesc": null,
+                "packageCode": "mthjhPTE",
+                "insType": "1",
+                "attachCompulsory": null,
+                "masterId": null,
+                "insurer": null,
+                "salesProductLiabilities": [
+                    {
+                        "extendedProps": {},
+                        "liabId": 8796,
+                        "liabName": "享有参与分配分红保险业务可分配盈余的权利",
+                        "liabCategory": null,
+                        "categoryName": "生存金",
+                        "liabDesc": "享有参与分配分红保险业务可分配盈余的权利，现金领取或转入万能账户。保单红利是不保证的。",
+                        "needDiseaseIndi": "N"
+                    },
+                    {
+                        "extendedProps": {},
+                        "liabId": 8759,
+                        "liabName": "身故给付身故保险金",
+                        "liabCategory": null,
+                        "categoryName": "身故",
+                        "liabDesc": "被保险人在祝寿金给付前身故，给付已交保费和现金价值的较大者，本合同终止；被保险人在祝寿金给付后身故，给付现金价值,本合同终止。",
+                        "needDiseaseIndi": "N"
+                    },
+                    {
+                        "extendedProps": {},
+                        "liabId": 8794,
+                        "liabName": "60周岁后每年给付保额的25%",
+                        "liabCategory": null,
+                        "categoryName": "生存金",
+                        "liabDesc": "被保险人于60周岁后的合同年生效对应日前生存，每年给付保额的25%。",
+                        "needDiseaseIndi": "N"
+                    },
+                    {
+                        "extendedProps": {},
+                        "liabId": 8793,
+                        "liabName": "每年给付保额的20%         ",
+                        "liabCategory": null,
+                        "categoryName": "生存金",
+                        "liabDesc": "被保险人于本合同生效日及60周岁日前生存，每年给付保额的20%。",
+                        "needDiseaseIndi": "N"
+                    },
+                    {
+                        "extendedProps": {},
+                        "liabId": 8795,
+                        "liabName": "可选择在60、65或70周岁时领取祝寿金",
+                        "liabCategory": null,
+                        "categoryName": "生存金",
+                        "liabDesc": "被保险人可选择在60、65或70周岁的合同生效对应日领取祝寿金，给付已交保费，祝寿金给付一次。",
+                        "needDiseaseIndi": "N"
+                    }
+                ],
+                "funds": []
+            },
+            {
+                "extendedProps": {},
+                "productId": 1115898,
+                "productCode": "TPYFJCFYJN",
+                "productName": "附加财富管家（万能型）（2017版）",
+                "productDesc": null,
+                "packageCode": null,
+                "insType": "2",
+                "attachCompulsory": null,
+                "masterId": null,
+                "insurer": null,
+                "salesProductLiabilities": [],
+                "funds": []
+            }
+        ],
+        "quotationIndi": "Y",
+        "proposalIndi": "N",
+        "quotePdfIndi": "N",
+        "proposalPdfIndi": "N",
+        "ilpProductIndi": "N"
+    }
+}

@@ -1,0 +1,55 @@
+.am-list-item .am-input-label.am-input-label-5 {
+  width: 120px;
+}
+
+.am-wingblank.am-wingblank-lg {
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+.stepsExample .timeline.am-steps.am-steps-small .am-steps-item.am-steps-custom .am-steps-head-inner>.am-steps-icon {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.stepsExample .timeline.am-steps.am-steps-small .am-steps-tail {
+  top: 3px;
+  padding: 0 8px;
+  background-color: transparent;
+}
+
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+
+.demoTitle:before,
+.demoTitle:after {
+  border-bottom: none;
+}
+
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 15px 0 9px 15px;
+}
+.not-square-grid .am-grid-icon {
+  width: 40px;
+  height: 60px;
+}
+
+.am-list-item .am-list-line .am-list-content, .am-list-item .am-list-line .am-list-extra {
+  line-height: 1.5;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: initial;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}

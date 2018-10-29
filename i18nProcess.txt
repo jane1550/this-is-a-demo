@@ -1,0 +1,18 @@
+I18n process (sample language "zh-CN"):
+1.In source js code under /src, add t('String to translate, args {0}{1}...', arg0, arg1...), exmaple: \src\routes\Example\components\ExampleView.js
+2.npm install -g grunt-cli
+3.npm install
+4.(windows only) Install gettext0.19.8.1-iconv1.14-shared-64.exe from https://github.com/mlocati/gettext-iconv-windows/releases
+5.To extract all translation strings in source code to /translations/messages.pot, run: npm run gettext
+6.(1st time only) Copy /translations/messages.pot to /translations/zh-CN.po
+7.Someone translate all strings to Chinese in /translations/zh-CN.po
+8.Change Gruntfile.js, add language: var locales = ["en", "zh-CN"];
+9.To transform po file to /src/i18n/zh-CN.js, run: npm run po2js
+10.In /src/i18n/index.js, add new language in LocalizedStrings: import zhCN from './zh-CN', new LocalizedStrings({..., "zh-CN": zhCN})
+11.In /src/main.js, change global language or runtime change on any page by: lang("zh-CN")
+12.Source code changed, add or modify more translation strings
+13.To extract new or modified translation strings in source code to /translations/messages.pot run: npm run gettext
+14.To merge translated /translations/zh.po and updated /translations/messages.pot, run: npm run merge (windows); grunt merge (linux)
+15.Someone translate new strings or modify changed strings to Chinese in /translations/zh-CN.po
+16.Transform new po file to js: npm run po2js
+

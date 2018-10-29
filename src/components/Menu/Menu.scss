@@ -1,0 +1,20 @@
+.text-grey {
+  color: #ccc
+}
+
+.menu-item-content {
+  margin: .75rem 1.25rem;
+}
+
+.menu-item-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 90%;
+}
+
+.hover-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}

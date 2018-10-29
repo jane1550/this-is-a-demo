@@ -1,0 +1,22 @@
+.fake-readonly[readonly] {
+  background-color: #fff;
+}
+
+.btn-disabled {
+  color: #495057;
+  background-color: #e9ecef;
+  opacity: 1;
+  cursor: inherit !important;
+}
+
+.custom-file-input:lang(zh-CN) ~ .custom-file-label::after {
+  content: "浏览";
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.is-invalid {
+  border-color: #dc3545 !important;
+}

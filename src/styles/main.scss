@@ -1,0 +1,83 @@
+@import 'base';
+//@import '~bootstrap/scss/bootstrap.scss';
+@import 'react-datetime.css';
+@import 'bootstrap-toggle.css';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+
+.page-header, .page-footer {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.page-content {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.action-footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.scrollable {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.tr-middle {
+  td, th {
+    vertical-align: middle !important;
+  }
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.white-space-normal {
+  white-space: normal!important;
+}
+
+.bg-grey {
+  background-color: #dee2e6!important;
+}

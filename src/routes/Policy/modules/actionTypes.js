@@ -1,0 +1,2 @@
+export const SET_POLICY_MODEL = 'policy/SET_POLICY_MODEL'
+export const RECEIVE_POLICY_DATA = 'policy/RECEIVE_POLICY_DATA'
