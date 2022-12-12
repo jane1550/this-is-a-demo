@@ -1,7 +1,8 @@
 import {
   LOCATION_CHANGE,
   locationChange,
-  updateLocation  ,
+  updateLocation,
+  //test
   default as locationReducer
 } from 'store/location'
 
